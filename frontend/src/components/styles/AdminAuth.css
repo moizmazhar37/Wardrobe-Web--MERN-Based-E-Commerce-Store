@@ -1,0 +1,12 @@
+.AdminLogin
+{
+    background-color: #1D1D20;
+    font-family: Nunito;
+    color: white;
+    padding: 0.8rem;
+}
+
+#login-wrapper
+{
+    margin-top: 10rem;
+}

@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "644122cf233719ff94092cd8"
+  },
+  "name": "Salis Salman",
+  "email": "salisbinsalman0@gmail.com",
+  "password": "$2b$10$iP37jVzVh2V6l8sT1zlRkuQfyfjdUsyvK65X2d5yv2U5JpIwzE8u.",
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1681990351671"
+    }
+  },
+  "__v": 0
+}]

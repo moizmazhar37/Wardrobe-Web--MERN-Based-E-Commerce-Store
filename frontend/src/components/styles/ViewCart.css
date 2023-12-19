@@ -1,0 +1,19 @@
+#cart-display
+{
+    display: grid;
+    grid-template-columns: 5% 30% 20% 20% 15% 10%;
+    background-color: #1d1d20;
+    color: white;
+    font-family: Nunito;
+    text-align: left;
+    align-items: center;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+#total-display
+{
+    display:flex;
+    justify-content: flex-end;
+}

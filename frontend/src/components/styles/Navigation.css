@@ -1,0 +1,129 @@
+#NavigationWrapper
+{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(177, 177, 177, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 0.5rem;
+    font-family: Nunito;
+    position: fixed;
+    width: 100%;
+}
+.NavLinks
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0.5rem;
+    border-top: 1px solid #eeeeee8c;
+
+}
+.NavLinks a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0 1rem;
+    transition: all 0.3s ease;
+}
+
+.NavLinks a:hover
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0 1rem;
+    transition: all 0.3s ease;
+}
+
+#NavigationWrapper-1
+{
+    background: black;
+    color: white;
+    box-shadow: 0 8px 32px 0 rgba(177, 177, 177, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 0.5rem;
+    font-family: Nunito;
+    width: 100%;
+}
+.NavLinks-1
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0.5rem;
+    border-top: 1px solid #eeeeee8c;
+    color: white;
+
+}
+.NavLinks-1 a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0 1rem;
+    transition: all 0.3s ease;
+}
+
+.NavLinks-1 a:hover
+{
+    color: rgb(119, 119, 119);
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0 1rem;
+    transition: all 0.3s ease;
+}
+
+#dropdown
+{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+#dropdown option
+{
+    background-color: #1d1d20;
+    color: white;
+    padding: 1rem;
+}
+
+.cart
+{
+    top: 0;
+    right: 0;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    font-size: 3rem;
+    font-weight: 300;
+    transition: all 0.3s ease;
+    margin-left: -4rem;
+    color: white;
+}
+.cart:hover
+{
+    color: rgb(70, 70, 70);
+}
+.carting
+{
+    display: grid;
+    grid-template-columns: 97% 3%;
+}
+.cartcount
+{   display:flex;
+}
+.cartcount h6
+{
+    background-color: white;
+    color: black;
+    height:fit-content;
+    padding: 0.1rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    border-radius: 100%;
+    font-size: 0.8rem;
+    margin-left: -1.5rem;
+}

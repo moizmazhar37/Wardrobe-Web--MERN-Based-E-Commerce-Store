@@ -1,0 +1,47 @@
+#ProductView
+{
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    font-family: 'Nunito';
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    
+}
+#container-display {
+    display: flex !important;
+    justify-content: center !important;
+    border-top: #1d1d20 1px solid;
+    padding-left: 5%;
+  }
+.ProductName
+{
+    text-align: left;
+    font-size: 1rem;
+}
+.ProductPrice
+{
+    display: flex !important;
+    justify-content: space-between !important;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.btn-buy
+{
+    background-color: #1d1d20;
+    color: white;
+    border: none;
+    margin-right: 0.3rem;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    font-weight: 200;
+}
+.btn-buy:hover
+{
+    background-color: white;
+    color: #1d1d20;
+    border: 1px solid #1d1d20;
+}
+
